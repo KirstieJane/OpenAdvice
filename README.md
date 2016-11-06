@@ -8,16 +8,16 @@ We aim to help early career researchers do their best to be open even if they fi
 Format of the in-person session Nov 13, 2016, an Unconference Workshop at OpenCon 2016 in Washington DC
 
 
-3:15 - Get a coffee and join us [add location]
+##3:15 - Get a coffee and join us [add location]
 
 
-3:30 - Introductions and session goals
+##3:30 - Introductions and session goals
 
    Facilitators: Kirstie & Danielle
    
    Attendee introductions
     
-Goals
+###Goals
 
 1. Collect information and anecdotes that will help researchers interested in openness start where they are
       
@@ -27,7 +27,7 @@ Goals
       
 4. Link to resources and blogs
         
-Discussion
+###Discussion
       
 1. Add questions as an issues on GitHub
 
@@ -36,9 +36,9 @@ Discussion
 3. Update the site
         
         
-4:30 - Editing website together
+##4:30 - Editing website together
 
 
-5:30 - Publish the site!
+##5:30 - Publish the site!
         
 
