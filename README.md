@@ -7,7 +7,9 @@ We aim to help early career researchers do their best to be open even if they fi
 
 Format of the in-person session Nov 13, 2016, an Unconference Workshop at OpenCon 2016 in Washington DC
 
+
 3:15 - Get a coffee and join us [add location]
+
 
 3:30 - Introductions and session goals
 
@@ -35,6 +37,7 @@ Discussion
         
         
 4:30 - Editing website together
+
 
 5:30 - Publish the site!
         
