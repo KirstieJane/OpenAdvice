@@ -1,49 +1,204 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
+    <title>RQM Handbook</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Openadvice by KirstieJane</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Christie Bahlai + MSL Team"/>
+    <!-- STYLES -->
+    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/ico" href="https://mozillascience.org/img/favicon.ico">
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/javascript/script.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/javascript/table.js" type="text/javascript" charset="utf-8"></script>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1 class="header">Openadvice</h1>
-        <p class="header">A website providing agony aunt style advice to people who want to work openly but currently find themselves in a closed enviroment.</p>
+  <!-- SIDE BAR NAVIGATION -->
+  	<aside>
+  		<div class="image">
+  			<img src="assets/images/science-fox_violeta.svg">
+  		</div>
+  		<nav>
+  		  <a class="selected" href="#schedule">Schedule</a>
+        	  <a href="#about">About</a>
+  		  <a href="#help">Help</a>
+  		</nav>
+  	</aside>
+  <!-- BODY TEXT -->
+  	<article>
 
-        <ul>
-          <li class="download"><a class="buttons" href="https://github.com/KirstieJane/OpenAdvice/zipball/master">Download ZIP</a></li>
-          <li class="download"><a class="buttons" href="https://github.com/KirstieJane/OpenAdvice/tarball/master">Download TAR</a></li>
-          <li><a class="buttons github" href="https://github.com/KirstieJane/OpenAdvice">View On GitHub</a></li>
-        </ul>
+        Hello my name is Kirstie
+      <!-- <div class="logo">
+        <a href="https://mozillascience.org" title="Mozilla Science Lab">
+          <img src="assets/images/science-lab-logo.svg" />
+        </a>
+      </div>
+	<!-- TITLE -->
+      <h1>Reproducible Quantitative Methods</h1>
+      <h2>Instructor Guide</h2>
 
-        <p class="header">This project is maintained by <a class="header name" href="https://github.com/KirstieJane">KirstieJane</a></p>
 
+  <!-- META INFO -->
+      <div class="meta-information">
 
-      </header>
-      <section>
-        <h1>
-<a id="openadvice" class="anchor" href="#openadvice" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>OpenAdvice</h1>
+        <p class="summary">
+          RQM is a research methods course that focuses on modernizing the post-data collection portion of the scientific workflow. The course takes an approach that produces both conventional research products and trains students to make their work more efficient and reproducible. This handbook provides a framework for professors who would like to teach a 14-week class on reproducible quantitative methods, presuming an understanding of open workflows for publication, some intermediate R or (other command-line based data analysis software) skills, and basic GitHub operations and use.
+        </p>
 
-<p>A website providing agony aunt style advice to people who want to work openly but currently find themselves in a closed enviroment.</p>
+      </div>
 
-<p>This website was created by Kirstie and Danielle in preparation for OpenCon 2016.</p>
-
-<p>We aim to help early career researchers do their best to be open even if they find that their supervisor doesn't support this goal.</p>
+      <div class="image">
+        <img src="assets/images/octopode-bar.jpg" alt="yeah bar" height="90" width="770">
+      </div>
+	<!-- SCHEDULE -->
+		<h2 id="schedule">Course Schedule</h2>
+<!-- QUARTER 1 -->
+    <section class="example">
+      <section class="title">
+        <h1>Part 1: Data</h1>
+        <p>Weeks 1-4</p>
+        <p>How to handle your data to make your work more efficient and reproducible, how to handle common problems with data coming from other sources</p>
       </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		
+      <section class="content">
+        <p>
+          <a href="lessons/week1/" target="_blank"><strong>Week 1</strong></a> - Introduction to reproducibility and open science frameworks
+        </p>
+        <p>
+          <a href="lessons/week2/" target="_blank"><strong>Week 2</strong></a> - Best practices for spreadsheets/ Learning to use data produced by others
+        </p>
+        <p>
+          <a href="lessons/week3/" target="_blank"><strong>Week 3</strong></a> - Introduction to Metadata / Data and scientific authorship
+        </p>
+        <p>
+          <a href="lessons/week4/" target="_blank"><strong>Week 4</strong></a> - Cleaning up messy data / Identifying 'grey' data sources
+        </p>
+      </section>
+    </section>
+<!-- QUARTER 2 -->
+    <section class="example">
+      <section class="title">
+        <h1>Part 2: Analysis</h1>
+        <p>Weeks 5-8</p>
+        <p>Applying reproducibility principles to common statistical and visualization approaches.</p>
+      </section>
+      <section class="content">
+        <p>
+          <a href="lessons/week5/" target="_blank"><strong>Week 5</strong></a> - Intro to scripting in R/ Version control in R with Github
+        </p>
+        <p>
+          <a href="lessons/week6/" target="_blank"><strong>Week 6</strong></a> - Programming in R / Licensing data and software for reuse
+        </p>
+        <p>
+          <a href="lessons/week7/" target="_blank"><strong>Week 7</strong></a> - Programming in R, continued /Authorship and citation practices for non-manuscript research products
+        </p>
+        <p>
+          <a href="lessons/week8/" target="_blank"><strong>Week 8</strong></a> - Student-directed processing and analysis of project data /Data and code sharing challenges
+        </p>
+      </section>
+    </section>
+<!-- QUARTER 3 -->
+    <section class="example">
+      <section class="title">
+        <h1>Part 3: Communication</h1>
+        <p>Weeks 9-12</p>
+        <p>Using technology to make our work accessable to others and to work better together.</p>
+      </section>
+      <section class="content">
+        <p>
+          <a href="lessons/week9/" target="_blank"><strong>Week 9</strong></a> - Making better plots / Visualization for outreach and communication
+        </p>
+        <p>
+          <a href="lessons/week10/" target="_blank"><strong>Week 10</strong></a> - Project workshop time, Github for project management / Scientific publication and accessibility
+        </p>
+        <p>
+          <a href="lessons/week11/" target="_blank"><strong>Week 11</strong></a> - Project workshop time
+        </p>
+        <p>
+          <a href="lessons/week12/" target="_blank"><strong>Week 12</strong></a> - Project workshop time / Scientific collaboration
+        </p>
+      </section>
+    </section>
+<!-- QUARTER 4 -->
+    <section class="example">
+      <section class="title">
+        <h1>Part 4: Opening Your Work</h1>
+        <p>Weeks 13-14</p>
+        <p>Inviting the world to contribute to the scientific enterprise</p>
+      </section>
+      <section class="content">
+        <p>
+          <a href="lessons/week13/" target="_blank"><strong>Week 13</strong></a> - Project workshop time / Participatory models for bigger science
+        </p>
+        <p>
+          <a href="lessons/week14/" target="_blank"><strong>Week 14</strong></a> - Preparing a paper for publication / The future of open science and reproducible research
+        </p>
+      </section>
+    </section>
+
+  <!-- MODULES -->
+  	<h2 id="about">About</h2>
+<ol class="steps">
+    <!-- about rqm -->
+      <li>
+        <h1>The RQM Course</h1>
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/TthxI9mlvGE" frameborder="0" allowfullscreen></iframe></p>
+        <p> Almost every graduate student has a “Now what?” moment during their thesis, and this moment often occurs after a student has collected data and now has to analyse it. Additionally, new (or newly enforced) requirements from federal funders are holding our scientific outputs, including data and code, to more rigorous reproducibility standards, but has offered little guidance on how individual labs and research projects should change their workflows.</p>
+        <p>	Because of poor quality in many data sources, <a href="https://whatsthebigdata.com/2016/05/01/data-scientists-spend-most-of-their-time-cleaning-data/">data scientists estimate they spend up to 80% of their time</a> ‘data munging’- that is, cleaning, quality checking, and documenting data that they’re trying to use for their insights. The reality is, most data producers (a group which includes most experimental scientists) do not have specific training in data handling. This leads to decision paralysis, inefficiency, and the potential for incredible losses of information at the interface between observations and analysis- and takes the joy out of data-driven discovery. Training initiatives that address these issues are <a href="https://www.insidehighered.com/news/2012/04/03/studies-show-data-management-skills-high-demand-and-low-supply-universities">in high demand</a>- workshops for <a href="http://software-carpentry.org/">Software Carpentry</a> and <a href="http://www.datacarpentry.org/">Data Carpentry</a> -organizations that offer workshops to train scientists in efficient software and data science skills- are usually at capacity and waitlisted within days of initial advertising. </p>
+        <p>This course directly builds on the principles laid out in Software Carpentry and Data Carpentry workshops, but provides students with a more immersive, long term experience in the form of a project-based learning approach. Project-based learning hybridizes a traditional lecture with a student-led working group, which allows the course to be effectively customized to directly apply the principles to real data and real problems. We provide the added incentive of including the students on a publication resulting from their work- giving them concrete training in applying these skills in a way that is relevant to their field. The course takes a two-pronged approach- approximately 2/3 of class time is given to applied tools training using a project data set, and the remaining 1/3 of class time is used to discuss the more philosophical aspects of modern, technologically- enabled science (e.g. how do we handle authorship on manuscripts supported by data compiled from a variety of sources? Is software a research product?).
+        </p>
+
+  </li>
+        <!-- how to -->
+        <li>
+          <h1>How to use this guide</h1>
+          <p>
+            You: a data enthusiast with a love of teaching! This guide is intended for use by scientists interested in leading students through a project-driven data science adventure. The main thing you need is some familiarity with open workflows and some form of project data. Please contact me if you're interested in teaching. I'm happy to help you work through the bugs.</p>
+            If you find typos, broken links, or want to suggest changes, please submit an issue or pull request to <a href="https://github.com/cbahlai/rqm-template">this repo.</a>
+            A good starting point is to fork that repo and make this course your own. You can also use this guide as a template for a student-facing webpage that will serve as a syllabus and guide for the people on the other side of the classroom.
+          </p>
+
+        </li>
+        <!-- about the authors -->
+        <li>
+          <h1>About this guide</h1>
+          <p>
+          This guide was created by <a href="https://practicaldatamanagement.wordpress.com/" target="blank">Christie Bahlai</a>, a quantitative ecologist at Michigan State University, while supported by a fellowship from the <a href="https://science.mozilla.org/">Mozilla Science Lab</a>.
+          </p>
+          <p>
+          <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+          </p>
+
+      </ol>
+
+  <!-- HELP -->
+  	<h2 id="help">Help</h2>
+  		<ol class="steps">
+        <!-- faq -->
+        <li>
+          <h1>Getting Help</h1>
+          <p>
+            Here we'll hopefully answer questions you might have. We aren't old enough to have a FAQ :)
+          </p>
+
+        </li>
+        <!-- Resources -->
+        <li>
+          <h1>Resources</h1>
+          <p>
+          Here are some pertinent resources that may be useful to you if you're teaching this course
+          </p>
+          <ul>
+            <li>
+              <h2>A friendly introduction to github</h2>
+              <p><a href="http://joeyklee.github.io/friendly-github-intro/">This workshop</a> is the friendliest of friendly introductions to the amazing tool that is <a href="https://github.com/">Github</a>.</p>
+            </li>
+
+          </ul>
+      </ol> -->
+  	</article>
   </body>
 </html>
