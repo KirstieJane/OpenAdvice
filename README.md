@@ -6,7 +6,7 @@ This website was created by Kirstie and Danielle in preparation for OpenCon 2016
 We aim to help early career researchers do their best to be open even if they find that their supervisor doesn't support this goal.
 
 
-Format of the in-person session Nov 13, 2016, an Unconference Workshop at OpenCon 2016 in Washington DC
+##Format of the in-person session Nov 13, 2016, an Unconference Workshop at OpenCon 2016 in Washington DC
 
 ##3:15 - Get a coffee and join us [add location]
 
@@ -29,9 +29,9 @@ Format of the in-person session Nov 13, 2016, an Unconference Workshop at OpenCo
   
    Danielle can't share data or images from scientific talks containing unpublished data, but she can share her general audience talks on GitHub or FigShare (and in the process learn to use tools that will facilitate later open practices).
    
-   Suzanne's boss is determined to submit their paper to a closed access journal, but Suzanne can check the liscening agreement and can probably post an unformatted draft on her personal website.
+   Suzanne's boss is determined to submit their paper to a closed access journal, but Suzanne can check the journal's liscening agreement and can probably post an unformatted draft on her personal website or insitutional repository. (This also works when you realize you've been publishing closed access for years! Post the unformatted drafts!
 
- 4. Gather links to resources and blogs.
+4. Gather links to resources and blogs.
 
 5. Get a conversation going between people with expertise in data sharing / working openly and researchers in the field who may (for example) not have ownership of their data.
         
