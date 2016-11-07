@@ -23,7 +23,7 @@ We aim to help early career researchers do their best to be open even if they fi
 
 2. Collect stories of people who have moved from working in traditional closed workflow to working openly. 
 
-3. Gather practical advice - what can a person can do when they can't follow best practices of openness?
+3. Gather practical advice - what can a person can do when they can't follow ideal practices of openness?
   
   For example: 
   
@@ -34,6 +34,8 @@ We aim to help early career researchers do their best to be open even if they fi
 4. Gather links to resources and blogs.
 
 5. Get a conversation going between people with expertise in data sharing / working openly and researchers in the field who face barriers to openness (for example, people who do not have ownership of their data).
+
+6. If you've never made a GitHub website, join us to collaborate and we will show you!
         
 ###Discussion
       
