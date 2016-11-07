@@ -1,17 +1,17 @@
-# OpenAdvice
-Join is to ask your real-world questions or be an Open Advice Agony Aunt! We are building a website providing Agony Aunt style advice to people who want to work openly but currently find themselves in a closed environment.  We aim to help early career researchers do their best to be open even if they find that their supervisor doesn't support this goal. You don't have to wait until you are the boss! Session goals: 
+##OpenAdvice
+Join is to ask your real-world questions or be an Open Advice Agony Aunt! We are building a website providing Agony Aunt style advice to people who want to work openly but currently find themselves in a closed environment.  We aim to help early career researchers do their best to be open even if they find that their supervisor doesn't support this goal. You don't have to wait until you are the boss! 
 
 This website was created by Kirstie and Danielle in preparation for OpenCon 2016.
 
 We aim to help early career researchers do their best to be open even if they find that their supervisor doesn't support this goal.
 
 
-##Format of the in-person session Nov 13, 2016, an Unconference Workshop at OpenCon 2016 in Washington DC
+###Format of the in-person session Nov 13, 2016, an Unconference Workshop at OpenCon 2016 in Washington DC
 
-##3:15 - Get a coffee and join us [add location]
+###3:15 - Get a coffee and join us [add location]
 
 
-##3:30 - Introductions and session goals
+###3:30 - Introductions and session goals
 
    Facilitators: Kirstie & Danielle
    
@@ -44,9 +44,9 @@ We aim to help early career researchers do their best to be open even if they fi
 3. Update the site
         
         
-##4:30 - Editing website together
+###4:30 - Editing website together
 
 
-##5:30 - Publish the site!
+###5:30 - Publish the site!
         
 
