@@ -29,11 +29,11 @@ We aim to help early career researchers do their best to be open even if they fi
   
    Danielle can't share data or images from scientific talks containing unpublished data, but she can share her general audience talks on GitHub or FigShare (and in the process learn to use tools that will facilitate later open practices).
    
-   Suzanne's boss is determined to submit their paper to a closed access journal, but Suzanne can check the journal's liscening agreement and can probably post an unformatted draft on her personal website or insitutional repository. (This also works when you realize you've been publishing closed access for years! Post the unformatted drafts!
+   Suzanne's boss is determined to submit their paper to a closed access journal, but Suzanne can check the journal's liscening agreement and can probably post an unformatted draft on her personal website or insitutional repository. (This also works when you realize you've been publishing closed access for years - post the unformatted drafts!)
 
 4. Gather links to resources and blogs.
 
-5. Get a conversation going between people with expertise in data sharing / working openly and researchers in the field who may (for example) not have ownership of their data.
+5. Get a conversation going between people with expertise in data sharing / working openly and researchers in the field who face barriers to openness (for example, people who do not have ownership of their data).
         
 ###Discussion
       
