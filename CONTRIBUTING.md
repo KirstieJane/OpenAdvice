@@ -158,16 +158,13 @@ And if you've found typos in this (or any other) page, you could consider submit
 
 [link_discussingissues]: https://help.github.com/articles/discussing-projects-in-issues-and-pull-requests
 
-[link_bugs]: https://github.com/KirstieJane/OpenAdvice/labels/bug
-[link_webdev]: https://github.com/KirstieJane/OpenAdvice/labels/web%20dev
+[link_bug]: https://github.com/KirstieJane/OpenAdvice/labels/bug
 [link_goodfirstbug]: https://github.com/KirstieJane/OpenAdvice/labels/good%20first%20bug
 [link_helpwanted]: https://github.com/KirstieJane/OpenAdvice/labels/help%20wanted
-[link_nocode]: https://github.com/KirstieJane/OpenAdvice/labels/no%20code
 [link_suggestedquestion]: https://github.com/KirstieJane/OpenAdvice/labels/suggested%20question
 [link_contributorquestion]: https://github.com/KirstieJane/OpenAdvice/labels/contributor%20question
-[link_requests]: https://github.com/KirstieJane/OpenAdvice/labels/requests
-
-[link_gettogether]: https://github.com/KirstieJane/OpenAdvice/labels/get%20together
+[link_request]: https://github.com/KirstieJane/OpenAdvice/labels/request
+[link_webdev]: https://github.com/KirstieJane/OpenAdvice/labels/web%20dev
 
 [link_emojis]: http://www.emoji-cheat-sheet.com/
 [link_frontenddev_wiki]: https://en.wikipedia.org/wiki/Front_end_development
