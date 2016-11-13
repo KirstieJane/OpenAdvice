@@ -31,7 +31,7 @@ You can find all currently open conversations under the [issues tab][link_issues
 
 The current list of labels are [here][link_labels] and include:
 
-* [![Suggested questions](https://img.shields.io/badge/-suggested%20question-d6c0f9.svg)][link_suggestedquestion] These issues are questions you (or others you know) have about working openly. These are the point of the project!
+* [![Suggested questions](https://img.shields.io/badge/-suggested%20question-d4c5f9.svg)][link_suggestedquestion] These issues are questions you (or others you know) have about working openly. These are the point of the project!
 
     To ***post a question***, set the title of a new issue with the word `QUESTION: ` and then a short (5-10 word) summary of the question. For example: `QUESTION: Supervisor doesn't support open data sharing`
         
@@ -75,7 +75,7 @@ The current list of labels are [here][link_labels] and include:
     
 <br>
 
-* [![Bugs](https://img.shields.io/badge/-bugs-fc2929.svg)][link_bugs] These issues point to problems in the project.
+* [![Bugs](https://img.shields.io/badge/-bug-ee0701.svg)][link_bug] These issues point to problems in the project.
 
     If you find a bug, please give as much detail as possible in your issue.
     
@@ -83,7 +83,7 @@ The current list of labels are [here][link_labels] and include:
 
 <br>
 
-* [![Requests](https://img.shields.io/badge/-requests-fbca04.svg)][link_requests] These issues are asking for features (or anything else) to be added to the project.
+* [![Requests](https://img.shields.io/badge/-request-fbca04.svg)][link_request] These issues are asking for features (or anything else) to be added to the project.
 
     If you have a good idea and would like to see it implemented in the STEMM Role Models project please open a new issue and add in as much detail as possible.
     
@@ -91,7 +91,7 @@ The current list of labels are [here][link_labels] and include:
 
 <br>
 
-* [![Web development](https://img.shields.io/badge/-web%20dev-f7c6c7.svg)][link_frontenddev] These issues relate to the development of the actual website.
+* [![Web development](https://img.shields.io/badge/-web%20dev-bfdadc.svg)][link_webdev] These issues relate to the development of the actual website.
 
     These issues are likely to be asking for help from experts in [front end development][link_frontenddev_wiki], so the HTML, CSS and/or JavaScript for the website.
     
@@ -159,14 +159,15 @@ And if you've found typos in this (or any other) page, you could consider submit
 [link_discussingissues]: https://help.github.com/articles/discussing-projects-in-issues-and-pull-requests
 
 [link_bugs]: https://github.com/KirstieJane/OpenAdvice/labels/bug
-[link_frontenddev]: https://github.com/KirstieJane/OpenAdvice/labels/web%20dev
-[link_gettogether]: https://github.com/KirstieJane/OpenAdvice/labels/get%20together
+[link_webdev]: https://github.com/KirstieJane/OpenAdvice/labels/web%20dev
 [link_goodfirstbug]: https://github.com/KirstieJane/OpenAdvice/labels/good%20first%20bug
 [link_helpwanted]: https://github.com/KirstieJane/OpenAdvice/labels/help%20wanted
 [link_nocode]: https://github.com/KirstieJane/OpenAdvice/labels/no%20code
 [link_suggestedquestion]: https://github.com/KirstieJane/OpenAdvice/labels/suggested%20question
 [link_contributorquestion]: https://github.com/KirstieJane/OpenAdvice/labels/contributor%20question
 [link_requests]: https://github.com/KirstieJane/OpenAdvice/labels/requests
+
+[link_gettogether]: https://github.com/KirstieJane/OpenAdvice/labels/get%20together
 
 [link_emojis]: http://www.emoji-cheat-sheet.com/
 [link_frontenddev_wiki]: https://en.wikipedia.org/wiki/Front_end_development
