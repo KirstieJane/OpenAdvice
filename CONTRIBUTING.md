@@ -31,24 +31,18 @@ You can find all currently open conversations under the [issues tab][link_issues
 
 The current list of labels are [here][link_labels] and include:
 
-* [![Suggested questions](https://img.shields.io/badge/-suggested%20question-cc317c.svg)][link_suggestedquestion] These issues are questions you (or others you know) have about working openly. These are the point of the project!
+* [![Suggested questions](https://img.shields.io/badge/-suggested%20question-d6c0f9.svg)][link_suggestedquestion] These issues are questions you (or others you know) have about working openly. These are the point of the project!
 
-    To ***post a question***, set the title of a new issue with the word `QUESTION: ` and then a short (5-10 word) summary of the question.
-        For example: `QUESTION: Supervisor doesn't support open data sharing`
+    To ***post a question***, set the title of a new issue with the word `QUESTION: ` and then a short (5-10 word) summary of the question. For example: `QUESTION: Supervisor doesn't support open data sharing`
         
     Then add in the text of your question in the issue itself.
     
-        **THANK YOU!** You're adding to our database of questions! YOU. ROCK. :clap: :sunglasses:
+     **THANK YOU!** You're adding to our database of questions! YOU. ROCK. :clap: :sunglasses:
     
-    To reply, read the question and then respond in a variety of different ways:
+    To ***suggest an answer***, just add your response to the issue as a comment.
     
-    * Suggest an answer! Again, this is the whole point of the project!
+    You're also welcome to ask for clarification for a question or suggest a different way of phrasing it.
     
-    * Alternatively you could write a comment to:
-      * express your emotions more dramatically (check out this [cheat sheet][link_emojis] for emojis you might need)
-      * ask for a clarification
-      * ask a follow up question
-
 <br>
 
 * [![Contributor questions](https://img.shields.io/badge/-contributor%20question-cc317c.svg)][link_contributorquestion] These issues are questions you have about the project.
@@ -170,7 +164,8 @@ And if you've found typos in this (or any other) page, you could consider submit
 [link_goodfirstbug]: https://github.com/KirstieJane/OpenAdvice/labels/good%20first%20bug
 [link_helpwanted]: https://github.com/KirstieJane/OpenAdvice/labels/help%20wanted
 [link_nocode]: https://github.com/KirstieJane/OpenAdvice/labels/no%20code
-[link_question]: https://github.com/KirstieJane/OpenAdvice/labels/question
+[link_suggestedquestion]: https://github.com/KirstieJane/OpenAdvice/labels/suggested%20question
+[link_contributorquestion]: https://github.com/KirstieJane/OpenAdvice/labels/contributor%20question
 [link_requests]: https://github.com/KirstieJane/OpenAdvice/labels/requests
 
 [link_emojis]: http://www.emoji-cheat-sheet.com/
