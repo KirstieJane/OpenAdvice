@@ -1,4 +1,6 @@
 ##OpenAdvice
+
+[![Join the chat at https://gitter.im/KirstieJane/OpenAdvice](https://badges.gitter.im/KirstieJane/OpenAdvice.svg)](https://gitter.im/KirstieJane/OpenAdvice?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 Join us to ask your real-world questions or be an Open Advice Agony Aunt! We are building a website providing Agony Aunt style advice to people who want to work openly but currently find themselves in a closed environment.  We aim to help early career researchers do their best to be open even if they find that their supervisor doesn't support this goal. You don't have to wait until you are the boss!
 
 This website was created by Kirstie and Danielle in preparation for OpenCon 2016.
