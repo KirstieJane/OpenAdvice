@@ -1,6 +1,6 @@
 # Contributing to Open Advice
 
-Welcome to the Open Advice project GitHub repository, and thank you for thinking about contributing! :smiley::heart::smiley:
+Welcome to the Open Advice project [GitHub repository][link_openadvicerepo], and thank you for thinking about contributing! :smiley::heart::smiley:
 
 The point of this file is to make it suuuuuper easy for you to get involved. So if you have any questions that aren't covered here please let us know! Check out the [Share your thoughts](#share-your-thoughts) section below for more details.
 
@@ -19,9 +19,11 @@ Although GitHub calls them **issues**, we'd like you to think of them as **conve
 
 (If you're here you ***already are*** a member of the Open Advice team.)
 
-Your thoughts can be [suggested questions][link_question], [bugs][link_bugs], [requests][link_requests] or a myriad of other suggestions. In the next section we'll talk through some of the labels on each issue to help you select the ones you'd most like to help with.
+Your thoughts can be [suggested questions][link_suggestedquestion], [contributor questions][link_contributorquestion], [bugs][link_bugs], [requests][link_requests] or a myriad of other suggestions. In the next section we'll talk through some of the labels on each issue to help you select the ones you'd most like to help with.
 
-GitHub has a nice set of help pages if you're looking for more information about [discussing projects in issues][link_discussingissues].
+One thing to note: It's always nice to get some positive feedback or community support for an issue. If you want to just agree with everything in an issue you can [react to the post][link_react] with one of :+1: :laugh: :heart: :tada:. 
+
+If you're looking for more information, GitHub has a nice set of help pages about [discussing projects using issues][link_discussingissues].
 
 ### Labels
 
@@ -29,17 +31,36 @@ You can find all currently open conversations under the [issues tab][link_issues
 
 The current list of labels are [here][link_labels] and include:
 
-* [![Suggested questions](https://img.shields.io/badge/-SuggestedQuestion-cc317c.svg)][link_question] These issues are questions you (or others you know) have. These are the point of the project!
+* [![Suggested questions](https://img.shields.io/badge/-suggested%20question-cc317c.svg)][link_suggestedquestion] These issues are questions you (or others you know) have about working openly. These are the point of the project!
 
+    To ***post a question***, set the title of a new issue with the word `QUESTION: ` and then a short (5-10 word) summary of the question.
+        For example: `QUESTION: Supervisor doesn't support open data sharing`
+        
+    Then add in the text of your question in the issue itself.
+    
+        **THANK YOU!** You're adding to our database of questions! YOU. ROCK. :clap: :sunglasses:
+    
     To reply, read the question and then respond in a variety of different ways:
     
-    * If you want to just agree with everything you can [react to the post][link_react] with one of :+1: :laugh: :heart: :tada:
-    * Suggest an answer!
+    * Suggest an answer! Again, this is the whole point of the project!
+    
     * Alternatively you could write a comment to:
       * express your emotions more dramatically (check out this [cheat sheet][link_emojis] for emojis you might need)
       * ask for a clarification
       * ask a follow up question
 
+<br>
+
+* [![Contributor questions](https://img.shields.io/badge/-contributor%20question-cc317c.svg)][link_contributorquestion] These issues are questions you have about the project.
+
+    Before you ask your question please read the project's [README.md](https://github.com/KirstieJane/OpenAdvice/blob/master/README.md) and [CONTRIBUTING.md](https://github.com/KirstieJane/OpenAdvice/blob/master/CONTRIBUTING.md) files. You might find your answer in there.
+
+    If we haven't covered them, then please open a new issue and add your question. We're super excited to hear from you!
+    
+    ***Please feel free to reply to the questions if you know the answer!*** You don't have to wait for one of the project owners to answer!
+    
+    You can also use our [Gitter channel][link_gitter] to ask and answer questions.
+    
 <br>
 
 * [![Good First Bug](https://img.shields.io/badge/-good%20first%20bug-5319e7.svg)][link_goodfirstbug] These issues contain a task that anyone with any level of experience can help with.
@@ -76,11 +97,10 @@ The current list of labels are [here][link_labels] and include:
 
 <br>
 
-* [![Front end development](https://img.shields.io/badge/-front%20end%20dev-f7c6c7.svg)][link_frontenddev] These issues relate front end development.
+* [![Web development](https://img.shields.io/badge/-web%20dev-f7c6c7.svg)][link_frontenddev] These issues relate to the development of the actual website.
 
-    From [wikipedia][link_frontenddev_wiki]: front end development, also known as client side development, is the practice of producing HTML, CSS and JavaScript for a website or web application so that a user can see and interact with them directly.
+    These issues are likely to be asking for help from experts in [front end development][link_frontenddev_wiki], so the HTML, CSS and/or JavaScript for the website.
     
-    These issues are likely to be asking for help from experts, either in terms of submitting or reviewing code, or simply providing guidance and advice.
     
 ## Make a change
 
@@ -95,8 +115,6 @@ Once you've identified one of the issues above that you feel you can contribute 
 2. [Fork][link_fork] the [Open Advice repository][link_openadvicerepo] to your profile.
 
     You can now do whatever you want with this copy of the project. You won't mess up anyone else's work so you're super safe.
-    
-    Make sure to [keep your fork up to date][link_updateupstreamwiki] with the master repository.
 
 3. Make the changes you've discussed.
 
@@ -112,9 +130,7 @@ Once you've identified one of the issues above that you feel you can contribute 
 
 If you're logged into GitHub you can see everyone who has contributed to the repository via our [live contributors page][link_contributorslive]. (You might have to add `KirstieJane/OpenAdvice` as the repository name before you click to sign in via GitHub.)
 
-If you aren't logged in we have a [static version][link_contributorsstatic] of the page but it might not be completely up to date!
-
-These pages are powered by the [Let's all build a hat rack][link_hatrackhome] project, and we love them. 
+This page is powered by the [Let's all build a hat rack][link_hatrackhome] project, and we love them. 
 
 Quoting from their [website][link_hatrackhome]:
 
@@ -130,7 +146,7 @@ Quoting from their [website][link_hatrackhome]:
 
 If you have a question or a comment we'd love for you to [open an issue][link_issues] because that will be our fastest way of communicating, getting the answers to you and (if necessary) making a change.
 
-If you'd prefer to email the founders you can contact [Kirstie](https://github.com/KirstieJane) at kw401 AT cam DOT ac DOT uk or [Danielle](https://github.com/DanielleCRobinson). They're [Mozilla Fellows for Science](https://science.mozilla.org/programs/fellowships/fellows) and can sometimes be a little busy, so please be gentle in your correspondence and give her a couple of days to reply. If she doesn't reply to your email before or during her regular "office hours" on Monday afternoons please feel free to ping her again.
+If you'd prefer to email the founders you can contact [Kirstie](https://github.com/KirstieJane) at kw401 AT cam DOT ac DOT uk or [Danielle](https://github.com/DanielleCRobinson). They're [Mozilla Fellows for Science](https://science.mozilla.org/programs/fellowships/fellows) and can sometimes be a little busy, so please be gentle in your correspondence and give them a couple of days to reply. If you don't hear anything before or during Kirstie's regular "office hours" on Monday afternoons please feel free to ping her again.
 
 ## Thank you!
 
@@ -139,35 +155,33 @@ You are awesome. :heart_eyes::sparkles::sunny:
 And if you've found typos in this (or any other) page, you could consider submitting your very first pull request to fix them via the [typos and broken links][link_fixingtyposissue] issue!
 
 [link_github]: https://github.com/
-[link_stemmrolemodelsrepo]: https://github.com/KirstieJane/STEMMRoleModels
+[link_openadvicerepo]: https://github.com/KirstieJane/OpenAdvice
+[link_gitter]: https://gitter.im/KirstieJane/OpenAdvice
 [link_signupinstructions]: https://help.github.com/articles/signing-up-for-a-new-github-account
 [link_react]: https://github.com/blog/2119-add-reactions-to-pull-requests-issues-and-comments
-[link_issues]: https://github.com/KirstieJane/STEMMRoleModels/issues
-[link_labels]: https://github.com/KirstieJane/STEMMRoleModels/labels
+[link_issues]: https://github.com/KirstieJane/OpenAdvice/issues
+[link_labels]: https://github.com/KirstieJane/OpenAdvice/labels
+
 [link_discussingissues]: https://help.github.com/articles/discussing-projects-in-issues-and-pull-requests
 
-[link_applications]: https://github.com/KirstieJane/STEMMRoleModels/labels/applications
-[link_bugs]: https://github.com/KirstieJane/STEMMRoleModels/labels/bug
-[link_frontenddev]: https://github.com/KirstieJane/STEMMRoleModels/labels/front%20end%20dev
-[link_gettogether]: https://github.com/KirstieJane/STEMMRoleModels/labels/get%20together
-[link_goodfirstbug]: https://github.com/KirstieJane/STEMMRoleModels/labels/good%20first%20bug
-[link_helpwanted]: https://github.com/KirstieJane/STEMMRoleModels/labels/help%20wanted
-[link_nocode]: https://github.com/KirstieJane/STEMMRoleModels/labels/no%20code
-[link_question]: https://github.com/KirstieJane/STEMMRoleModels/labels/question
-[link_requests]: https://github.com/KirstieJane/STEMMRoleModels/labels/requests
+[link_bugs]: https://github.com/KirstieJane/OpenAdvice/labels/bug
+[link_frontenddev]: https://github.com/KirstieJane/OpenAdvice/labels/web%20dev
+[link_gettogether]: https://github.com/KirstieJane/OpenAdvice/labels/get%20together
+[link_goodfirstbug]: https://github.com/KirstieJane/OpenAdvice/labels/good%20first%20bug
+[link_helpwanted]: https://github.com/KirstieJane/OpenAdvice/labels/help%20wanted
+[link_nocode]: https://github.com/KirstieJane/OpenAdvice/labels/no%20code
+[link_question]: https://github.com/KirstieJane/OpenAdvice/labels/question
+[link_requests]: https://github.com/KirstieJane/OpenAdvice/labels/requests
 
 [link_emojis]: http://www.emoji-cheat-sheet.com/
-[link_meettheteam]: https://github.com/KirstieJane/STEMMRoleModels/blob/master/MeetTheTeam.md
-[link_howacknowledge]: https://github.com/KirstieJane/STEMMRoleModels/issues/10
 [link_frontenddev_wiki]: https://en.wikipedia.org/wiki/Front_end_development
 [link_pullrequest]: https://help.github.com/articles/proposing-changes-to-a-project-with-pull-requests/
 [link_fork]: https://help.github.com/articles/fork-a-repo/
 [link_pushpullblog]: https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/
 [link_branches]: https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/
 [link_updateupstreamwiki]: https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser
-[link_contributorslive]: https://labhr.github.io/js-hatrack/#repo=KirstieJane/STEMMRoleModels
-[link_contributorsstatic]: http://kirstiejane.github.io/STEMMRoleModels/octohatrack_output/Scrapbook_20160317092940/index.html
+[link_contributorslive]: https://labhr.github.io/js-hatrack/#repo=KirstieJane/OpenAdvice
 [link_hatrackhome]: https://labhr.github.io/
 [link_hatrackidea]: http://hawthornlandings.org/2015/02/13/a-place-to-hang-your-hat/
 [link_hatrackcontributions]: http://opensource.com/life/15/10/octohat-github-non-code-contribution-tracker
-[link_fixingtyposissue]: https://github.com/KirstieJane/STEMMRoleModels/issues/22
+[link_fixingtyposissue]: https://github.com/KirstieJane/OpenAdvice/issues/8
