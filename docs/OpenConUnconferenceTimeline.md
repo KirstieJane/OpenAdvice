@@ -1,5 +1,8 @@
-### Format of the in-person session Nov 13, 2016, an Unconference Workshop at OpenCon 2016 in Washington DC
+# In-person unconference workshop at OpenCon 2016
 
+**Nov 13 2016, Washington DC**
+
+### Timeline
 * 3:15 - Get a coffee and join us [add location]
 
 * 3:30 - Introductions and session goals (see below)
