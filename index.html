@@ -1,193 +1,20 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Open Advice</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Kirstie Whitaker, Danielle Robinson + MSL Team"/>
-    <!-- STYLES -->
-    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:400,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/ico" href="https://mozillascience.org/img/favicon.ico">
-    <!-- JS -->
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="assets/javascript/script.js" type="text/javascript" charset="utf-8"></script>
-    <script src="assets/javascript/table.js" type="text/javascript" charset="utf-8"></script>
-  </head>
+---
+layout: default
+title: Open Advice
+---
 
-  <body>
-  <!-- SIDE BAR NAVIGATION -->
-  	<aside>
-  	  <div class="image">
-        <a href="#top">
-    	    <img src="assets/images/science-fox_violeta.svg">
-        </a>
-  	  </div>
-  	  <nav>
-  	    <a class="selected" href="#about">About</a>
-        <a href="#questions">Questions</a>
-        <a href="#contributors">Contributors</a>
-        <a href="#resources">Resources</a>
-  	  </nav>
-  	</aside>
+{% for question in site.questions %}
 
-    <!-- BODY TEXT -->
-    <article>
-      <!-- TOP TITLE -->
-      <h1>Open Advice</h1>
-
-      <!-- SECTION TITLE -->
-      <h2 id="about">About</h2>
+<section class="example">
+    <section class="title">
+        <h1>Question</h1>
         <p>
-          Open Advice provides agony aunt style advice to people who want to work openly but currently find themselves in a closed environment.
+            {{ question.title }}
         </p>
-        <p>
-          This website was created by <a href=https://github.com/kirstiejane>Kirstie</a> and <a href=https://github.com/daniellecrobinson>Danielle</a> in preparation for <a href="http://www.opencon2016.org/">OpenCon 2016</a>.
-        </p>
-        <p>
-          We aim to help early career researchers do their best to be open even if they find that their supervisor doesn't support this goal.
-        </p>
+    </section>
+    <section class="content">
+        {{ question.content }}
+    </section>
+</section>
 
-      <!-- QUESTIONS -->
-      <h2 id="questions">Questions</h2>
-
-      <section class="example">
-        <section class="title">
-          <h1>Question</h1>
-          <p>What should I do if I don't have sole ownership of my research data?</p>
-          
-        </section>
-        <section class="content">
-          <p>Before you have published, without sole ownership it is difficult to share. Here are some things that you can do:</p>
-          <p>When you can't share unpublished data but would like to promote your research you may be able to post analysis code or other perhipheral, but non-specific materials. </p>
-          <p>Once your work is published, it may be easier to share data. Check with your funding agency to see if you are required (or encouraged) to deposit the data once your work is published. </p>
-        
-        </section>
-      </section>
-
-      <!-- QUESTIONS -->
-      <section class="example">
-        <section class="title">
-          <h1>Question</h1>
-          <p>What about all those papers I published before I knew about the Open Access movement? The license prohibits me from posting them now. What can I do?</p>
-         
-        </section>
-        <section class="content">
-          <p>Here are some things that you can do:</p>
-          <p>
-            You may be able to archive a pre-print or post-print, depending on the journal's license. Search for the journal's name in <a href="http://www.sherpa.ac.uk/romeo/">SHERPA/RoMEO</a>, which will tell you what you are allowed to self-archive. Self archiving means publishing it yourself online, either in a repository and/or your own personal website.
-          </p>
-          <p>
-            If you kept a version of your paper - either the draft that you submitted to the journal for consideration (preprint) or the revised version that you did after peer review (postprint), you may be able to archive these in an institutional repository or a disciplinary repository. You can always write to the journal and ask. 
-          </p>
-          <p>
-            This request can also apply to book chapters and other non-journal publications. Here is a template for an e-mail to request this permission (borrowed from the University of Toronto):
-          </p>
-          <br>
-          <p>
-            Dear permissions contact,
-          </p>
-          <p>
-            I write to request permission to self-archive my article, “<strong>[article citation]</strong>” in my <strong>[institutional repository/disciplinary repository]</strong>, <strong>[name of repository]</strong>.
-          </p>
-          <p>
-            I would be happy to acknowledge your publication and/or copyright in the description.Thank you for your time. I look forward to hearing back from you regarding permission to make this article available on <strong>[name of repository]</strong>.
-          </p>
-          <p>
-            Sincerely, <strong>[Name]</strong>
-          </p>
-          
-          <p>
-            Make sure to archive all of your work going forward. Check the journal on <a href="http://www.sherpa.ac.uk/romeo/">SHERPA/RoMEO</a> first, then archive as soon as you are accepted for publication!.
-          </p>
-         
-        </section>
-      </section>
-
-      <!-- QUESTIONS -->
-      <section class="example">
-        <section class="title">
-          <h1>Question</h1>
-          <p>My boss is determined to publish in a paywalled jounal. Is there anything I can do to make my paper available?</p>
-          
-        </section>
-        <section class="content">
-          <p>
-            Here are some things you can do:
-          </p>
-           <p>
-             Please discuss self-archiving with your boss! You can archive your work either on your personal website, in a repository at your institutaion or another repository.
-          </p>
-          <p>
-            Read the licensing agreement of the journal where your boss wants to publish. Find out if your university has an institutional repository where you can deposit your article in a proof-form (without the journal's formatting, then you can link to this on your personal website.
-          </p>
-          <p>
-            Most reputable journals allow for the self-archiving of postprints or preprints in repositories. Search <a href="http://www.sherpa.ac.uk/romeo/">SHERPA/RoMEO</a> for the journal title and see what the journal allows for self-archiving. Explain the <a href="http://f1000research.com/articles/5-632/v3">benefits</a> of making a version of the article Open Access, which includes potentially increased citations and attention for your paper as well as providing access to a version of your results for those who do not have subscriptions to the journal. These benefits can be particularly helpful for Early Career Researchers and increased attention can help you advance your career (which will make your boss look good too) while still adhering to your boss's requirement to publish in the paywalled journal.
-          </p>
-        </section>
-      </section>
-      
-<!-- QUESTIONS -->
-      <section class="example">
-        <section class="title">
-          <h1>Question</h1>
-          <p>My boss doesn't share data or contribute unpublished work to resources like Figshare, but I want to get my work out there. What can I do?</p>
-          
-        </section>
-        <section class="content">
-          <p>Working openly has a demonstrated <a href="https://elifesciences.org/content/5/e16800">positive impact</a> on early career researchers. Here are some things you can do to get your work out there: </p>
-          <p>Consider posting slides from your general audience talks to FigShare or GitHub and contributing to open source academic analysis programs. </p>
-         
-        </section>
-      </section>
-  <!-- HELP -->
-      
-    <h2 id="contributors">Contributors</h2>
-      
-      <p>
-        The Open Advice project is openly developed on GitHub. Please visit our <a href="https://github.com/KirstieJane/OpenAdvice/blob/master/README.md">repository site</a> to suggest questions, provide answers, report any bugs with the website, or any other feedback you'd like to share.
-      </p>
-      <p>
-        We'd love to hear from you! The details on how to get in touch can be found <a href="https://github.com/KirstieJane/OpenAdvice#get-involved">here</a>.
-      </p>
-      
-  	<h2 id="resources">Resources</h2>
-      <p>
-        Here are some pertinent resources that may be useful to you if you're teaching this course
-      </p>
-  	  <ol class="steps">
-        <!-- Resources -->
-        <li>
-          <h1>Articles explaining the benefits of working openly</h1>
-          <ul>
-            <li>
-              <h2>The academic, economic and societal impacts of Open Access: an evidence-based review</h2>
-              <p>
-                Tennant JP, Waldner F, Jacques DC et al. The academic, economic and societal impacts of Open Access: an evidence-based review [version 3; referees: 3 approved, 2 approved with reservations]. F1000Research 2016, 5:632 (<a href="https://f1000research.com/articles/5-632/v3">doi: 10.12688/f1000research.8460.3</a>)
-              </p>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h1>Working with GitHub</h1>
-          <ul>
-            <li>
-              <h2>A friendly introduction to github</h2>
-              <p><a href="http://joeyklee.github.io/friendly-github-intro/">This workshop</a> is the friendliest of friendly introductions to the amazing tool that is <a href="https://github.com/">Github</a>.</p>
-            </li>
-          </ul>
-        </li>
-        <li>
-            <h1>Open Science</h1>
-            <ul>
-              <li>
-                <h2>Mozilla Science Lab</h2>
-                <p>You can describe this resource here.</p>
-              </li>
-          </ul>
-      </li>
-      </ol>
-  	</article>
-  </body>
-</html>
+{% endfor %}

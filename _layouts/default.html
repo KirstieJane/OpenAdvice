@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+
+        {% include sidebar.html %}
+
+        <article>
+            <!-- TOP TITLE -->
+            <h1>Open Advice</h1>
+
+            {% include about.html %}
+
+            <!-- QUESTIONS -->
+            <h2 id="questions">Questions</h2>
+
+            {{ content }}
+
+            {% include contributors.html %}
+
+            {% include resources.html %}
+        </article>
+
+    </body>
+</html>
