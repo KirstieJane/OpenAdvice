@@ -1,0 +1,20 @@
+# Site info
+title:          Open Advice
+description:    Open Advice provides agony aunt style advice to people who want to work openly but currently find themselves in a closed environment.
+url:            https://kirstiejane.github.io/OpenAdvice
+baseurl:        /OpenAdvice/
+
+# Build settings
+markdown:       kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+# Permalinks
+permalink:      pretty
+
+# Collections
+collections:
+  - questions
